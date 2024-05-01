@@ -1,4 +1,6 @@
 N = int(input())
 numbers = list(map(int, input().split(' ')))
-numbers.sort()
-print(numbers[0], numbers[len(numbers)-1])
+# numbers.sort()
+# print(numbers[0], numbers[len(numbers)-1])
+
+print(min(numbers), max(numbers))
